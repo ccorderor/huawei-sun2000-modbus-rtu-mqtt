@@ -1,0 +1,4 @@
+#huawei_solar
+paho.mqtt
+pymodbus>=2.4.0,<3.0
+pytz>=2019.3
