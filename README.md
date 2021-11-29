@@ -34,7 +34,7 @@ Once the docker image has been generated, you can use the following docker-compo
  huawei-solar-rtu:
     container_name: huawei-solar-rtu
     restart: unless-stopped
-    image: huawei-solar:latest
+    image: huawei-solar-rtu:latest
     user: root
     devices:
       - /dev/ttyUSB0:/dev/ttyUSB0
