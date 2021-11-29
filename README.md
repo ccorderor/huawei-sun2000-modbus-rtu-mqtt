@@ -31,7 +31,7 @@ docker build -t huawei-solar-rtu .
 Once the docker image has been generated, you can use the following docker-compose service to initialize it:
 
 ```
- huawei-solar:
+ huawei-solar-rtu:
     container_name: huawei-solar-rtu
     restart: unless-stopped
     image: huawei-solar:latest
