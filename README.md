@@ -1,11 +1,11 @@
 # Huawei SUN2000 KTL L1 Inverter Modbus RTU to MQTT
-Monitoring the Huawei SUN2000L KTL L1 inverter via Modbus TCP and publishing the values to MQTT
+Monitoring the Huawei SUN2000L KTL L1 inverter via Modbus RTU and publishing the values to MQTT
 
 **What is this?**
 
-This script allows to control a Huawei SUN2000L KTL L1 inverter via Modbus TCP and to publish the values in MQTT (for use in node-red, Home Assistant, OpenHab...).
+This script allows to control a Huawei SUN2000L KTL L1 inverter via Modbus RTU and to publish the values in MQTT (for use in node-red, Home Assistant, OpenHab...).
 
-I created this script because the examples I found on the internet did not work with the dongle (SDongle A52) using LAN connection and not via WiFi. It seems that the SUN2000L is quite peculiar with its Modbus TCP protocol...
+This is the RTU version of my TCP project: https://github.com/ccorderor/huawei-sun2000-modbus-mqtt
 
 I use a forked version of the HuaweiSolar library (https://gitlab.com/Emilv2/huawei-solar) from Emilv2. 
 
